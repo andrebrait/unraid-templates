@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommunityApplications>
+  <Profile>Unraid Docker templates maintained by André Brait. Each template links to its application's own project page and issue tracker for support.</Profile>
+  <WebPage>https://github.com/andrebrait/unraid-templates</WebPage>
+</CommunityApplications>

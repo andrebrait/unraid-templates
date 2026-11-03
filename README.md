@@ -4,18 +4,18 @@ Unraid Docker templates maintained by André Brait.
 
 | Template | Application |
 |---|---|
-| [protonvpn-cli](templates/protonvpn-cli.xml) | [Proton VPN CLI container](https://github.com/andrebrait/protonvpn-cli-docker) |
+| [protonvpn](templates/protonvpn.xml) | [Proton VPN CLI container](https://github.com/andrebrait/protonvpn-cli-docker) |
 
 ## Installing a template
 
 These templates are not yet listed in Community Applications. To add one manually, run this in the Unraid terminal:
 
 ```bash
-wget -O /boot/config/plugins/dockerMan/templates-user/my-protonvpn-cli.xml \
-  https://raw.githubusercontent.com/andrebrait/unraid-templates/main/templates/protonvpn-cli.xml
+wget -O /boot/config/plugins/dockerMan/templates-user/my-protonvpn.xml \
+  https://raw.githubusercontent.com/andrebrait/unraid-templates/main/templates/protonvpn.xml
 ```
 
-Then open **Docker → Add Container** and select **protonvpn-cli** under the user templates.
+Then open **Docker → Add Container** and select **protonvpn** under the user templates.
 
 ## Support
 

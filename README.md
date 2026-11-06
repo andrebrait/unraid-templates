@@ -1,14 +1,21 @@
 # unraid-templates
 
-Unraid Docker templates maintained by André Brait.
+Unraid Docker and plugin templates maintained by André Brait.
 
-| Template | Application |
-|---|---|
-| [protonvpn](templates/protonvpn.xml) | [Proton VPN CLI container](https://github.com/andrebrait/protonvpn-cli-docker) |
+| Template | Type | Application |
+|---|---|---|
+| [fanctrlplus2](templates/fanctrlplus2.xml) | Plugin | [FanCtrl Plus 2](https://github.com/andrebrait/fanctrlplus) |
+| [protonvpn](templates/protonvpn.xml) | Docker | [Proton VPN CLI container](https://github.com/andrebrait/protonvpn-cli-docker) |
 
 ## Installing a template
 
-These templates are not yet listed in Community Applications. To add one manually, run this in the Unraid terminal:
+FanCtrl Plus 2 is listed in Community Applications. Install it from the **Apps** tab, or install the plugin directly from **Plugins → Install Plugin** with:
+
+```text
+https://raw.githubusercontent.com/andrebrait/fanctrlplus/main/plugin/fanctrlplus2.plg
+```
+
+The Docker templates are not yet listed in Community Applications. To add one manually, run this in the Unraid terminal:
 
 ```bash
 wget -O /boot/config/plugins/dockerMan/templates-user/my-protonvpn.xml \

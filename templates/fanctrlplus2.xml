@@ -9,5 +9,5 @@
   <MinVer>6.9.0</MinVer>
   <Support>https://github.com/andrebrait/fanctrlplus/issues</Support>
   <Project>https://github.com/andrebrait/fanctrlplus</Project>
-  <Icon>https://raw.githubusercontent.com/andrebrait/fanctrlplus/main/src/usr/local/emhttp/plugins/fanctrlplus2/images/fanctrlplus2.png</Icon>
+  <Icon>https://raw.githubusercontent.com/andrebrait/unraid-templates/main/images/fanctrlplus2.png</Icon>
 </Containers>

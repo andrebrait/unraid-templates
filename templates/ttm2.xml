@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Plugin>True</Plugin>
+  <PluginURL>https://raw.githubusercontent.com/andrebrait/TTM-unRAID/main/plugin/ttm2.plg</PluginURL>
+  <PluginAuthor>andrebrait</PluginAuthor>
+  <Category>Tools:Utilities Tools:System</Category>
+  <Name>TTM v2</Name>
+  <Description>Leave terminals and come back later. Manage and create persistent terminal sessions in the Unraid Web GUI. (Installs Tmux and Reptyr - if not already installed) Successor to Tmux Terminal Manager (TTM) by desertwitch (Rysz). Installing it copies the settings of the old plugin and removes it.</Description>
+  <MinVer>7.3.4</MinVer>
+  <Support>https://github.com/andrebrait/TTM-unRAID/issues</Support>
+  <Project>https://github.com/andrebrait/TTM-unRAID</Project>
+  <IconFA>tty</IconFA>
+</Containers>

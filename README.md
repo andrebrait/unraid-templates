@@ -11,6 +11,7 @@ Unraid Docker and plugin templates maintained by André Brait.
 | [enhanced.log3](templates/enhanced.log3.xml) | Plugin | [Enhanced Log v3](https://github.com/andrebrait/unraid-enhancedlog), successor to Derek Kaser's Enhanced Log v2 |
 | [open.files3](templates/open.files3.xml) | Plugin | [Open Files v3](https://github.com/andrebrait/unraid-openfiles), successor to Derek Kaser's Open Files v2 |
 | [protonvpn](templates/protonvpn.xml) | Docker | [Proton VPN CLI container](https://github.com/andrebrait/protonvpn-cli-docker) |
+| [usb-sleep](templates/usb-sleep.xml) | Plugin | [USB Sleep](https://github.com/andrebrait/unraid-usb-sleep) |
 
 ## Installing a template
 
@@ -28,6 +29,12 @@ https://raw.githubusercontent.com/andrebrait/TTM-unRAID/main/plugin/ttm2.plg
 https://raw.githubusercontent.com/andrebrait/unraid-sanoid/master/sanoid.plg
 https://raw.githubusercontent.com/andrebrait/unraid-enhancedlog/main/plugin/enhanced.log3.plg
 https://raw.githubusercontent.com/andrebrait/unraid-openfiles/main/plugin/open.files3.plg
+```
+
+USB Sleep is pending Community Applications review; until it is listed, install it from **Plugins → Install Plugin** with:
+
+```text
+https://raw.githubusercontent.com/andrebrait/unraid-usb-sleep/main/usb-sleep.plg
 ```
 
 The Docker templates are not yet listed in Community Applications. To add one manually, run this in the Unraid terminal:

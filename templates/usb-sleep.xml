@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Plugin>True</Plugin>
+  <PluginURL>https://raw.githubusercontent.com/andrebrait/unraid-usb-sleep/main/usb-sleep.plg</PluginURL>
+  <PluginAuthor>andrebrait</PluginAuthor>
+  <Category>Tools:System Drivers</Category>
+  <Name>USB Sleep</Name>
+  <Description>Lets drives behind USB-SATA bridges spin down. Bridges such as the WD Elements Desktop answer Unraid's spin-down commands with sense data that Unraid reads as a failure ("sdspin /dev/sdX down: 1"), so Unraid stops spinning those drives down and keeps polling them. This plugin wraps Unraid's sdspin and reads the real power state with smartctl when the original reports an error. Drives that already work are not affected, and removing the plugin restores Unraid's sdspin.</Description>
+  <MinVer>6.9.0</MinVer>
+  <Support>https://github.com/andrebrait/unraid-usb-sleep/issues</Support>
+  <Project>https://github.com/andrebrait/unraid-usb-sleep</Project>
+  <IconFA>moon-o</IconFA>
+</Containers>

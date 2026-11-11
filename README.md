@@ -20,7 +20,7 @@ FanCtrl Plus 2 is listed in Community Applications. Install it from the **Apps**
 https://raw.githubusercontent.com/andrebrait/fanctrlplus/main/plugin/fanctrlplus2.plg
 ```
 
-The NUT, TTM, Sanoid, Enhanced Log and Open Files plugins are forks of existing plugins. They keep the original plugin filename (for example `nut-dw.plg`), so they cannot be installed next to the original plugin. Their templates are pending Community Applications review; until they are listed, install them from **Plugins → Install Plugin** with:
+The NUT, TTM, Sanoid, Enhanced Log and Open Files plugins are forks of existing plugins. They keep the original plugin filename (for example `nut-dw.plg`), so they cannot be installed next to the original plugin. Installing a fork's `.plg` over an existing install of the original plugin replaces it in place and keeps its settings (tested on Unraid 7.4.0 with all five). Their templates are pending Community Applications review; until they are listed, install them from **Plugins → Install Plugin** with:
 
 ```text
 https://raw.githubusercontent.com/andrebrait/NUT-unRAID/master/plugin/nut-dw.plg

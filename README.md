@@ -7,7 +7,7 @@ Unraid Docker and plugin templates maintained by André Brait.
 | [fanctrlplus2](templates/fanctrlplus2.xml) | Plugin | [FanCtrl Plus 2](https://github.com/andrebrait/fanctrlplus) |
 | [nut-dw](templates/nut-dw.xml) | Plugin | [Network UPS Tools (NUT) for UNRAID](https://github.com/andrebrait/NUT-unRAID), fork of desertwitch's plugin |
 | [dwttm](templates/dwttm.xml) | Plugin | [Tmux Terminal Manager (TTM)](https://github.com/andrebrait/TTM-unRAID), fork of desertwitch's plugin |
-| [unRAID6-Sanoid](templates/unRAID6-Sanoid.xml) | Plugin | [Sanoid](https://github.com/andrebrait/unRAID6-Sainoid), fork of steini84's plugin |
+| [sanoid](templates/sanoid.xml) | Plugin | [Sanoid](https://github.com/andrebrait/unraid-sanoid), fork of steini84's plugin |
 | [enhanced.log](templates/enhanced.log.xml) | Plugin | [Enhanced Log v2](https://github.com/andrebrait/unraid-enhancedlog), fork of Derek Kaser's plugin |
 | [open.files](templates/open.files.xml) | Plugin | [Open Files v2](https://github.com/andrebrait/unraid-openfiles), fork of Derek Kaser's plugin |
 | [protonvpn](templates/protonvpn.xml) | Docker | [Proton VPN CLI container](https://github.com/andrebrait/protonvpn-cli-docker) |
@@ -20,12 +20,12 @@ FanCtrl Plus 2 is listed in Community Applications. Install it from the **Apps**
 https://raw.githubusercontent.com/andrebrait/fanctrlplus/main/plugin/fanctrlplus2.plg
 ```
 
-The NUT, TTM, Sanoid, Enhanced Log and Open Files plugins are forks of existing plugins. They keep the original plugin filename (for example `nut-dw.plg`), so they cannot be installed next to the original plugin. Installing a fork's `.plg` over an existing install of the original plugin replaces it in place and keeps its settings (tested on Unraid 7.4.0 with all five). Their templates are pending Community Applications review; until they are listed, install them from **Plugins → Install Plugin** with:
+The NUT, TTM, Sanoid, Enhanced Log and Open Files plugins are forks of existing plugins. NUT, TTM, Enhanced Log and Open Files keep the original plugin filename (for example `nut-dw.plg`), so they cannot be installed next to the original plugin, and installing the fork replaces it in place and keeps its settings. Sanoid is renamed to `sanoid.plg`; installing it removes the original `unRAID6-Sanoid` plugin. All five were tested on Unraid 7.4.0. Their templates are pending Community Applications review; until they are listed, install them from **Plugins → Install Plugin** with:
 
 ```text
 https://raw.githubusercontent.com/andrebrait/NUT-unRAID/master/plugin/nut-dw.plg
 https://raw.githubusercontent.com/andrebrait/TTM-unRAID/main/plugin/dwttm.plg
-https://raw.githubusercontent.com/andrebrait/unRAID6-Sainoid/master/unRAID6-Sanoid.plg
+https://raw.githubusercontent.com/andrebrait/unraid-sanoid/master/sanoid.plg
 https://raw.githubusercontent.com/andrebrait/unraid-enhancedlog/main/plugin/enhanced.log.plg
 https://raw.githubusercontent.com/andrebrait/unraid-openfiles/main/plugin/open.files.plg
 ```

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <Plugin>True</Plugin>
-  <PluginURL>https://raw.githubusercontent.com/andrebrait/unRAID6-Sainoid/master/unRAID6-Sanoid.plg</PluginURL>
+  <PluginURL>https://raw.githubusercontent.com/andrebrait/unraid-sanoid/master/sanoid.plg</PluginURL>
   <PluginAuthor>steini84 / andrebrait</PluginAuthor>
   <Category>Tools:System</Category>
   <Name>Sanoid</Name>
   <Description>Sanoid is a policy-driven snapshot management tool for ZFS filesystems. When combined with the Linux KVM hypervisor, you can use it to make your systems functionally immortal. Fork of the Sanoid plugin by steini84.</Description>
   <MinVer>7.0.0</MinVer>
-  <Support>https://github.com/andrebrait/unRAID6-Sainoid/issues</Support>
-  <Project>https://github.com/andrebrait/unRAID6-Sainoid</Project>
-  <Icon>https://raw.githubusercontent.com/andrebrait/unRAID6-Sainoid/master/images/unRAID6-Sanoid.png</Icon>
+  <Support>https://github.com/andrebrait/unraid-sanoid/issues</Support>
+  <Project>https://github.com/andrebrait/unraid-sanoid</Project>
+  <Icon>https://raw.githubusercontent.com/andrebrait/unraid-sanoid/master/images/sanoid.png</Icon>
 </Containers>

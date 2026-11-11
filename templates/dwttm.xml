@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Plugin>True</Plugin>
+  <PluginURL>https://raw.githubusercontent.com/andrebrait/TTM-unRAID/main/plugin/dwttm.plg</PluginURL>
+  <PluginAuthor>desertwitch (Rysz) / andrebrait</PluginAuthor>
+  <Category>Tools:Utilities Tools:System</Category>
+  <Name>Tmux Terminal Manager (TTM)</Name>
+  <Description>Leave terminals and come back later. Manage and create persistent terminal sessions in the Unraid Web GUI. (Installs Tmux and Reptyr - if not already installed) Fork of Tmux Terminal Manager (TTM) by desertwitch (Rysz), whose plugin loses upstream support on 30.11.2026.</Description>
+  <MinVer>7.3.4</MinVer>
+  <Support>https://github.com/andrebrait/TTM-unRAID/issues</Support>
+  <Project>https://github.com/andrebrait/TTM-unRAID</Project>
+  <IconFA>tty</IconFA>
+</Containers>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Plugin>True</Plugin>
+  <PluginURL>https://raw.githubusercontent.com/andrebrait/unraid-openfiles/main/plugin/open.files3.plg</PluginURL>
+  <PluginAuthor>andrebrait</PluginAuthor>
+  <Category>Tools:System</Category>
+  <Name>Open Files v3</Name>
+  <Description>This plugin shows any open files on the array that might prevent a clean shutdown. The plugin web page is installed in 'Tools'. You can stop all array processes on the open files web page and troubleshoot shutdown problems. After you stop all array processes, you will see what processes are still holding files open on the array preventing a shutdown. Successor to Open Files v2 by Derek Kaser (dkaser), which is based on the original Open Files by Dan Landon (dlandon). Installing it copies the settings of the old plugin and removes it.</Description>
+  <MinVer>7.0.0</MinVer>
+  <Support>https://github.com/andrebrait/unraid-openfiles/issues</Support>
+  <Project>https://github.com/andrebrait/unraid-openfiles</Project>
+  <IconFA>folder-open</IconFA>
+</Containers>

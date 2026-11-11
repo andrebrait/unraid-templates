@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Plugin>True</Plugin>
+  <PluginURL>https://raw.githubusercontent.com/andrebrait/NUT-unRAID/master/plugin/nut3.plg</PluginURL>
+  <PluginAuthor>andrebrait</PluginAuthor>
+  <Category>Tools:System Drivers:</Category>
+  <Name>NUT v3</Name>
+  <Description>Monitor uninterruptible power supplies (UPS) and other power devices locally or over the network - supports a wide range of brands and enables graceful shutdown during power loss scenarios. Successor to Network UPS Tools (NUT) for UNRAID by desertwitch (Rysz), itself based on the NUT plugin by dmacias72 and SimonFair. Installing it copies the settings of the old plugin and removes it.</Description>
+  <MinVer>7.3.4</MinVer>
+  <Support>https://github.com/andrebrait/NUT-unRAID/issues</Support>
+  <Project>https://github.com/andrebrait/NUT-unRAID</Project>
+  <Icon>https://raw.githubusercontent.com/andrebrait/NUT-unRAID/master/plugin/nut3.png</Icon>
+</Containers>

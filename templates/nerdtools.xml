@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Plugin>True</Plugin>
+  <PluginURL>https://github.com/andrebrait/unRAID-NerdTools/releases/latest/download/NerdTools.plg</PluginURL>
+  <PluginAuthor>andrebrait</PluginAuthor>
+  <Category>Tools:System</Category>
+  <Name>NerdTools</Name>
+  <Description>Installs native command-line packages on Unraid without Docker. Package catalogs and SHA256-verified binaries come from GitHub Releases, with historical releases kept for rollback. Catalog checks run daily by default and never install updates automatically. Continuation of the NerdTools plugin by UnRAIDES, whose repository is archived; it uses the same plugin name, so it updates an existing NerdTools install in place and keeps package preferences.</Description>
+  <MinVer>7.3.4</MinVer>
+  <Support>https://github.com/andrebrait/unRAID-NerdTools/issues</Support>
+  <Project>https://github.com/andrebrait/unRAID-NerdTools</Project>
+  <Icon>https://raw.githubusercontent.com/andrebrait/unRAID-NerdTools/main/plugin/NerdTools.png</Icon>
+</Containers>

@@ -10,6 +10,7 @@ Unraid Docker and plugin templates maintained by André Brait.
 | [sanoid](templates/sanoid.xml) | Plugin | [Sanoid](https://github.com/andrebrait/unraid-sanoid), successor to steini84's Sanoid plugin |
 | [enhanced.log3](templates/enhanced.log3.xml) | Plugin | [Enhanced Log v3](https://github.com/andrebrait/unraid-enhancedlog), successor to Derek Kaser's Enhanced Log v2 |
 | [open.files3](templates/open.files3.xml) | Plugin | [Open Files v3](https://github.com/andrebrait/unraid-openfiles), successor to Derek Kaser's Open Files v2 |
+| [nerdtools](templates/nerdtools.xml) | Plugin | [NerdTools](https://github.com/andrebrait/unRAID-NerdTools), continuation of UnRAIDES' NerdTools |
 | [protonvpn](templates/protonvpn.xml) | Docker | [Proton VPN CLI container](https://github.com/andrebrait/protonvpn-cli-docker) |
 | [usb-sleep](templates/usb-sleep.xml) | Plugin | [USB Sleep](https://github.com/andrebrait/unraid-usb-sleep) |
 
@@ -35,6 +36,12 @@ USB Sleep is pending Community Applications review; until it is listed, install 
 
 ```text
 https://raw.githubusercontent.com/andrebrait/unraid-usb-sleep/main/usb-sleep.plg
+```
+
+NerdTools is pending Community Applications review. It keeps the original plugin name, so it updates an existing NerdTools install in place. Until it is listed, install it from **Plugins → Install Plugin** with:
+
+```text
+https://github.com/andrebrait/unRAID-NerdTools/releases/latest/download/NerdTools.plg
 ```
 
 The Docker templates are not yet listed in Community Applications. To add one manually, run this in the Unraid terminal:

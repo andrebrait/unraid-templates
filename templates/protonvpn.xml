@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Container version="2">
-  <Name>protonvpn</Name>
+  <Name>ProtonVPN</Name>
   <Repository>ghcr.io/andrebrait/protonvpn-cli-docker:latest</Repository>
   <Registry>https://github.com/andrebrait/protonvpn-cli-docker/pkgs/container/protonvpn-cli-docker</Registry>
   <Network>bridge</Network>
@@ -8,7 +8,7 @@
   <Support>https://github.com/andrebrait/protonvpn-cli-docker/issues</Support>
   <Project>https://github.com/andrebrait/protonvpn-cli-docker</Project>
   <TemplateURL>https://raw.githubusercontent.com/andrebrait/unraid-templates/main/templates/protonvpn.xml</TemplateURL>
-  <Overview>Official Proton VPN CLI with a WebUI and shared VPN network. Proton does not officially support headless use. Open WebUI to sign in (including TOTP) and configure settings, or use the Console button for interactive protonvpn commands. FIDO2 is console-only and unverified. Set a WebUI password: leaving it empty enables open access, even if API_KEY is set.&#10;&#10;Attach other containers with --network=container:protonvpn and publish their application ports on this VPN container. Set LAN_NETWORKS to your trusted LAN CIDRs for direct application access. Drop NET_RAW from attached containers (--cap-drop=NET_RAW), never grant them NET_ADMIN, and start them only after this container is healthy. The kill switch prevents accidental leaks, not hostile code. If this VPN container is recreated, recreate attached containers to join its new network namespace.&#10;&#10;The forwarded port is shown in the WebUI and /config/forwarded_port; configure your torrent listener to match it. The supervisor handles reconnects; Docker health status alone does not trigger restarts. Requires cgroup v2, xt_cgroup, WireGuard kernel support and /dev/net/tun. This project is not affiliated with Proton AG.</Overview>
+  <Overview>Official Proton VPN CLI with a WebUI and shared VPN network. Proton does not officially support headless use. Open WebUI to sign in (including TOTP) and configure settings, or use the Console button for interactive protonvpn commands. FIDO2 is console-only and unverified. Set a WebUI password: leaving it empty enables open access, even if API_KEY is set.&#10;&#10;Attach other containers with --network=container:ProtonVPN and publish their application ports on this VPN container. Set LAN_NETWORKS to your trusted LAN CIDRs for direct application access. Drop NET_RAW from attached containers (--cap-drop=NET_RAW), never grant them NET_ADMIN, and start them only after this container is healthy. The kill switch prevents accidental leaks, not hostile code. If this VPN container is recreated, recreate attached containers to join its new network namespace.&#10;&#10;The forwarded port is shown in the WebUI and /config/forwarded_port; configure your torrent listener to match it. The supervisor handles reconnects; Docker health status alone does not trigger restarts. Requires cgroup v2, xt_cgroup, WireGuard kernel support and /dev/net/tun. This project is not affiliated with Proton AG.</Overview>
   <Category>Network:VPN</Category>
   <WebUI>http://[IP]:[PORT:8788]/</WebUI>
   <Icon>https://raw.githubusercontent.com/andrebrait/protonvpn-cli-docker/main/images/icon-256.png</Icon>
